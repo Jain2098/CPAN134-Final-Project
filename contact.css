@@ -8,7 +8,7 @@ body {
 }
 
 body {
-    background-image: url('/media/basketball-background4.png');
+    background-image: url('./media/basketball-background4.png');
     background-size: cover;
     background-repeat: repeat;
 }
@@ -23,7 +23,9 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: black;
+    /* background-color: black; */
+    background-image: url('./media/basketball-background1.png');
+    background-size: cover;
     }
     
     header img {
@@ -37,7 +39,7 @@ header {
   header ul li {
     /* border-right: 2px solid rgb(211, 26, 26);
     border-left: 2px solid rgb(211, 26, 26); */
-    border: 2px solid purple;
+    border: 2px solid black;
   }
 
 .container {
@@ -164,7 +166,7 @@ header {
 
 .menu li:hover {
     /* transform: scale(1.1); */
-    background-color: black;
+    background-color: purple;
     border: 1px solid white;
 }
 
