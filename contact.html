@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html>
+
+<!-- RESPONSIVE PAGE -->
 <head>
     <title>Contact Us</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="contact.css">
+	<link rel="stylesheet" type="text/css" href="header.css">
 </head>
 <main>
     <body>
         <header>
+            <section class="hero">
             <a href="#"><img src="./media/logo_blank.png"></a>
-            <br>
             <ul class="menu">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About Us</a></li>
@@ -17,13 +20,16 @@
                 <li><a href="./404.html">404 Page</a></li>
                 <li><a href="./contact.html">Contact Us</a></li>
             </ul>
+                <h1 id="headerh1">LETS GO RAPTORS</h1>
+              </section>
+        
         </header>
-
+<!-- PAGE HEADING -->
         <h1 id="h1contact">💬 We'd Love to Hear from You</h1>
 
         <div class="container">
+            <!-- CONTACT FORM -->
             <div class="contact-form">
-                <!-- <h2>Contact Us</h2> -->
                 <form>
                     <label for="name">Name:</label>
                     <input type="text" id="name" name="name" placeholder="Danny" required>
@@ -36,10 +42,11 @@
 
                     <button type="button" id="submit" onclick="validateForm();">Submit</button>
 
-                    <!-- <input type="submit" value="Submit"> -->
                 </form>
+                <!-- FUNNY IMAGE -->
                 <img src="./media/funny.gif" width="100%" style="margin-top: 10px; border-radius: 5px;">
             </div>
+            <!-- EMBED-MAPS -->
             <div class="google-map">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4077.335824946471!2d-79.60945015339598!3d43.72900406549745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b3a5391c12321%3A0x747f0c3b5cdecaa0!2sHumber%20College!5e0!3m2!1sen!2sca!4v1679094377356!5m2!1sen!2sca&zoom=16&q=Humber+College"
@@ -55,6 +62,8 @@
         </div>
 
     </body>
+
+    <!-- PAGE FOOTER -->
     <footer>
         <p id="footertext">CPAN 134 - Final Project</p>
         <p id="footertext">&copy; All Rights Reserved 2023<br></p>
