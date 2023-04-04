@@ -1,82 +1,3 @@
-/* General styles */
-/* Fonts */
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
-
-
-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: black;
-  }
-  
-  header img {
-  width: 120px;
-  height: 40px;
-  margin: 5px auto;
-  padding: 5px 10px;
-  
-  }
-
-header ul li {
-  /* border-right: 2px solid rgb(211, 26, 26);
-  border-left: 2px solid rgb(211, 26, 26); */
-  border: 2px solid purple;
-}
-
-.menu {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  list-style: none;
-  margin: 0;
-  background-color: rgba(0, 0, 0, 0);
-  
-}
-
-.menu li {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* background-color: yellow; */
-  width: 120px;
-  height: 40px;
-  border-radius: 5px;
-  margin: 5px;
-  text-align: center;
-}
-
-.menu a {
-  color: white;
-  text-decoration: none;
-  font-size: 16px;
-  font-family: sans-serif;
-  font-weight: bold;
-  word-wrap: none;
-  white-space: nowrap;
-}
-
-.menu li:hover {
-  /* transform: scale(1.1); */
-  background-color: black;
-  border: 1px solid white;
-}
-
-.menu a:hover {
-  color: white;
-}
-
-
-/* Heading 1 (H1) */
-h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 48px;
-  font-weight: 700;
-  line-height: 1.2;
-  margin-bottom: 24px;
-}
-
 /* Heading 2 (H2) */
 h2 {
   font-family: 'Montserrat', sans-serif;
@@ -135,37 +56,38 @@ li {
 }
 
 body {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
   background-image: url('./media/basketball-background3.png');
   background-size: cover;
   background-repeat: repeat;
 }
-#table1{
+
+#table1 {
   background-color: white;
   width: 95%;
   margin-bottom: 10px;
 }
 
 
-h1, h2, h3 {
-	margin: 0;
-    text-align: center;
+h2,h3 {
+  margin: 0;
+  text-align: center;
 }
 
-ul {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-}
+/* ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+} */
 
 
 /* Player list styles */
 .player-list {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
 }
 
 .player-item {
@@ -177,31 +99,32 @@ ul {
   padding: 10px;
   text-align: center;
   overflow: hidden;
-  }
-  
-  .player-item img {
+}
+
+.player-item img {
   width: 100%;
   height: 70%;
   object-fit: contain;
   transition: transform 0.3s, filter 0.3s;
-  }
-  
-  .player-item:hover {
+}
+
+.player-item:hover {
   background-color: purple;
   color: white;
-  
-  }
-  
-  .player-item img:hover {
-  transform: scale(1.2);
-  height: 100%; /* adjust the height on hover */
-  }
-  
-  .player-item p {
-  margin: 5px 0;
-  }
 
-#h2v2{
+}
+
+.player-item img:hover {
+  transform: scale(1.2);
+  height: 100%;
+  /* adjust the height on hover */
+}
+
+.player-item p {
+  margin: 5px 0;
+}
+
+#h2v2 {
   padding: 10px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 36px;
@@ -215,7 +138,7 @@ ul {
   text-transform: uppercase;
 }
 
-#lastup{
+#lastup {
   font-size: 12px;
   float: right;
   padding: 0 15px;
@@ -226,16 +149,16 @@ ul {
 
 /* Schedule table styles */
 .schedule-table {
-	border-collapse: collapse;
-	margin: 0;
-	width: 100%;
+  border-collapse: collapse;
+  margin: 0;
+  width: 100%;
 }
 
 .schedule-table th,
 .schedule-table td {
-	border: 1px solid #ccc;
-	padding: 10px;
-	text-align: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
 }
 
 
@@ -253,7 +176,7 @@ footer {
   padding: 0 5%;
 }
 
-#footertext{
+#footertext {
   font-size: 15px;
 }
 
@@ -278,20 +201,7 @@ footer {
 
 
 @media screen and (min-width: 200px) and (max-width: 680px) {
-  header {
-      margin: auto auto;
-      background-color: transparent;
-  }
 
-  .menu {
-      display: none;
-  }
-
-
-  .menu li {
-      width: 100%;
-      margin: 10px 0;
-  }
 
   footer {
     display: flex;
@@ -303,17 +213,17 @@ footer {
     background-color: black;
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  
+
     padding: 0 0;
   }
 
-  #footertext{
+  #footertext {
     font-size: 14px;
     margin: 5px 0;
     padding: 0 0;
   }
 
-  .social-icons{
+  .social-icons {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -323,23 +233,27 @@ footer {
 
 
 }
+
 /* Small screens (up to 768px) */
 @media screen and (max-width: 768px) {
   .player-item {
-    flex-basis: calc(50% - 20px); /* show two items per row */
+    flex-basis: calc(50% - 20px);
+    /* show two items per row */
   }
 }
 
 /* Medium screens (769px to 992px) */
 @media screen and (min-width: 769px) and (max-width: 992px) {
   .player-item {
-    flex-basis: calc(33.33% - 20px); /* show three items per row */
+    flex-basis: calc(33.33% - 20px);
+    /* show three items per row */
   }
 }
 
 /* Large screens (above 992px) */
 @media screen and (min-width: 993px) {
   .player-item {
-    flex-basis: calc(20% - 30px); /* show five items per row */
+    flex-basis: calc(20% - 30px);
+    /* show five items per row */
   }
 }
