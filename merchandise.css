@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.hero {
+  background-image: url('kawhishot.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.products {
+  display: flex;
+  justify-items: flex-start;
+  justify-content: space-evenly;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.product-card-1 img, .product-card-2 img, .product-card-3 img {
+  width: 300px;
+  background-color: white;
+}
+
+.product-card-3 img:hover {
+  content: url('./media/merch2-hover.png');
+}
+
+
+.product-card-1, .product-card-2, .product-card-3 {
+  background-color: #f5f5f5;
+  padding: 1rem;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.product-card-1, .product-card-2, .product-card-3 {
+  width: 350px;
+  height: auto;
+  object-fit: cover;
+}
+
+.product-link {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #CE1141;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.product-link:hover {
+  background-color: #B3A369;
+}
+
+
+.product-card h3, .product-card p, .product-card a{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}

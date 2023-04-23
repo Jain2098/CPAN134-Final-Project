@@ -1,6 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('./media/basketball-background3.png');
+  background-size: cover;
+  background-repeat: repeat;
+}
+@font-face {
+  font-family: Raptors;
+  src: url(Gallery_media/Deli.otf);
+}
+
+
 /* Heading 2 (H2) */
-h2 {
-  font-family: 'Montserrat', sans-serif;
+#firsth2, #h2v2 {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.2;
@@ -55,13 +67,7 @@ li {
   margin-bottom: 8px;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  background-image: url('./media/basketball-background3.png');
-  background-size: cover;
-  background-repeat: repeat;
-}
+
 
 #table1 {
   background-color: white;
@@ -70,7 +76,7 @@ body {
 }
 
 
-h2,h3 {
+#firsth2,#h2v2 {
   margin: 0;
   text-align: center;
 }

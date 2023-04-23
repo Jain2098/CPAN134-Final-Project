@@ -1,3 +1,6 @@
+const gif = document.querySelector('.funnygif');
+let formdetails = false;
+
 function validateForm() {
     var name = document.getElementById("name").value;
     var email = document.getElementById("email").value;
@@ -8,6 +11,8 @@ function validateForm() {
         return false;
     }
     else {
-    alert("Thanks for contacting us!\n\nYour message has been sent successfully.\nWe will get back to you as soon as possible.");
-}
+        formdetails = true;
+        gif.src = './media/submitted.jpg';
+        alert("Thanks for contacting us!\n\nYour message has been sent successfully.\nWe will get back to you as soon as possible.");
+    }
 }

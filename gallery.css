@@ -1,0 +1,79 @@
+@font-face {
+    font-family: Raptors;
+    src: url(Gallery_media/Deli.otf);
+  }
+  
+.mygallery img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+  #heading-gallery{
+    text-align: center;
+    font-size: 75px;
+    font-weight:lighter;
+    margin-top: 20px;
+    font-family: Raptors;
+    text-shadow: 5px 5px 0 rgba(0, 0, 0, 0.1);
+    color: purple;
+    -webkit-text-stroke: 2px white;
+    text-stroke: 2px white;
+  }
+
+  #heading-gallery:hover {
+    color: yellow;
+    -webkit-text-stroke: 2px black;
+    text-stroke: 2px black;
+  }
+
+  .mygallery p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    font-family: Raptors;
+    color: rgb(105, 15, 15);
+  }
+  
+
+  body {
+    background-color: rgb(146, 14, 14);
+  }
+  
+
+  .gallery {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+  }
+  
+  .mygallery img:hover {
+    transform: scale(2);
+    transition: all 0.3s ease-in-out;
+    filter: grayscale(100%);
+    transition: all 0.3s ease-in-out;
+  }
+  
+
+ 
+  p:hover {
+    color: white;
+  }
+
+
+
+  a{
+    font-family: raptors;
+  }
+
+
+
+
+  
+
+  
