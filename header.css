@@ -15,7 +15,7 @@ header {
 }
 
 /* Heading 1 (H1) */
-#headerh1 {
+#headerh1, .headerh1 {
     font-family: Raptors;
     font-size: 48px;
     font-weight: 700;
