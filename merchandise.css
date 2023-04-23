@@ -4,21 +4,12 @@ body {
   padding: 0;
   color: #333;
 }
-
-.hero {
-  background-image: url('kawhishot.jpg');
-  background-size: cover;
-  background-position: center;
-  height: 60vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: white;
+main{
+  position: relative;
 }
 
 .products {
+  position: relative;
   display: flex;
   justify-items: flex-start;
   justify-content: space-evenly;
@@ -29,10 +20,6 @@ body {
 .product-card-1 img, .product-card-2 img, .product-card-3 img {
   width: 300px;
   background-color: white;
-}
-
-.product-card-3 img:hover {
-  content: url('./media/merch2-hover.png');
 }
 
 
